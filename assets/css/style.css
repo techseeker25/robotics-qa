@@ -1,0 +1,68 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #004080;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2 {
+  color: #004080;
+}
+
+.intro, .philosophy, .skills {
+  margin-bottom: 2rem;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eee;
+  font-size: 0.9rem;
+}
+
+/* Optional: Profile image */
+.profile-img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
